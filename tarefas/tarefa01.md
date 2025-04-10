@@ -2,6 +2,8 @@
 
 * [Criação do Esquema Relacional](t01/tarefa01-create.sql)
 * [Povoamento do Esquema Relacional](t01/tarefa01-inserts.sql)
+* [Questão 01 da lista](t01/tarefa01-q01.sql)
+* [Questão 04 da lista](t01/tarefa01-q04.sql)
 
 #
 
