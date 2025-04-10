@@ -30,11 +30,6 @@ UPDATE departamento SET cod_gerente = 2 WHERE codigo = 3;
 UPDATE departamento SET cod_gerente = 3 WHERE codigo = 1;
 UPDATE departamento SET cod_gerente = 4 WHERE codigo = 4;
 UPDATE departamento SET cod_gerente = 5 WHERE codigo = 5;
-UPDATE departamento SET cod_gerente = 6 WHERE codigo = 6;
-UPDATE departamento SET cod_gerente = 7 WHERE codigo = 7;
-UPDATE departamento SET cod_gerente = 8 WHERE codigo = 8;
-UPDATE departamento SET cod_gerente = 9 WHERE codigo = 9;
-UPDATE departamento SET cod_gerente = 10 WHERE codigo = 10;
 
 -- Inserindo dados na tabela projeto
 INSERT INTO projeto (codigo, nome, descricao, cod_depto, cod_responsavel, data_inicio, data_fim) VALUES
