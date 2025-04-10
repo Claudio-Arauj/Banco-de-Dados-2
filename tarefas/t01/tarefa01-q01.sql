@@ -1,8 +1,8 @@
-WITH SalariosDepto2 AS (
-    SELECT salario 
+WITH SalarioMaxDepto2 AS (
+    SELECT MAX(salario) AS max_salario 
     FROM funcionario 
     WHERE cod_depto = 2
 )
 SELECT f.nome 
 FROM funcionario f
-LEFT JOIN SalariosDepto2 s ON f.salario > s.salario;
+WHERE f.salario > (SELECT max_salario FROM SalarioMaxDepto2);
