@@ -4,6 +4,9 @@
 * [Povoamento do Esquema Relacional](t01/tarefa01-inserts.sql)
 * [Questão 01 da lista](t01/tarefa01-q01.sql)
 * [Questão 04 da lista](t01/tarefa01-q04.sql)
+* [Questão 07 da lista](t01/tarefa01-q07.sql)
+* [Questão 11 da lista](t01/tarefa01-q11.sql)
+* [Questão 15 da lista](t01/tarefa01-q15.sql)
 
 #
 
