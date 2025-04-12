@@ -19,9 +19,9 @@ INSERT INTO funcionario (codigo, nome, sexo, dt_nasc, salario, cod_depto) VALUES
 (4, 'Ana Souza', 'F', '1995-06-30', 4600.00, 4),
 (5, 'Fernando Alves', 'M', '1988-11-21', 5300.00, 5),
 (6, 'Paula Mendes', 'F', '1993-02-14', 4700.00, 6),
-(7, 'Júlio Rocha', 'M', '1987-07-07', 5100.00, 7),
-(8, 'Sofia Martins', 'F', '1996-09-18', 4900.00, 8),
-(9, 'Diego Ferreira', 'M', '1991-05-25', 5200.00, 9),
+(7, 'Júlio Rocha', 'M', '1987-07-07', 5100.00, 2),
+(8, 'Sofia Martins', 'F', '1996-09-18', 4900.00, 2),
+(9, 'Diego Ferreira', 'M', '1991-05-25', 5200.00, 3),
 (10, 'Lúcia Carvalho', 'F', '1984-12-02', 5600.00, 10);
 
 -- Atualizando os gerentes dos departamentos
@@ -69,4 +69,3 @@ INSERT INTO atividade_projeto (cod_projeto, cod_atividade) VALUES
 (8, 8),
 (9, 9),
 (10, 10);
-
